@@ -1,0 +1,161 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+#nav-bar
+{
+    width:100%; 
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+    align-content: center;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+
+}
+
+.navbar-nav li a
+{
+    padding: 0 10px;
+    text-align: left;
+}
+
+.navbar ul li a:hover
+{
+    color:dodgerblue!important;
+}
+
+.navbar
+{
+    background: rgba(36, 39, 223, 0.863);
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color:#555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.container-fluid{
+    width: 80%;
+}
+
+
+/* Slider */
+#slider{
+    width: 100%;
+    size:10px; 
+}
+
+.carousel-caption{
+    top:30%;
+    transform: translateY(-50%);
+    bottom:initial!important;
+}
+
+.carousel-caption h5{
+    color:white;
+    font-size: 100px;
+    text-align: right;
+    padding:20px;
+}
+
+.carousel-caption h6{
+    color:white;
+    font-size: 30px;
+    text-align: right;
+}
+
+/* About Section */
+#about{
+    width:100%;
+    padding-top:50px;
+    padding-bottom:50px;
+    color:honeydew;
+    text-align: justify;
+    background-color:rgba(14, 9, 39, 0.863);
+    
+}
+
+#about h2{
+    color:white;
+    font-size:40px;
+}
+ 
+#about btn{
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+.about-content{
+    padding-top:20px;
+    padding-bottom:20px;
+    
+}
+
+/* Section :: Industry Focus */
+#homePage_2 h2{
+    margin-top:50px;
+    margin-bottom:0px;
+    color:indigo;
+    font-size: 50px;
+}
+
+.img {
+    opacity: 0.5;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+.media:hover {
+    opacity: 0.8;
+}
+
+.media{
+    width: 100%;
+    background-color: white;
+    margin-top:50px;
+    margin-bottom: 10px;
+    text-align:justify;
+    
+}
+
+.media h4{
+    color: purple;
+    font-size: 30px;    
+    margin-top: 20px;
+}
+
+.media p{
+    color:black;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+
+
